@@ -1,0 +1,6 @@
+{
+  "name": "recruider", "version": "1.0.0", "private": true, "type": "module",
+  "description": "Recruider full-stack app preserving the supplied prototype interface",
+  "engines": {"node": ">=24.14.0"},
+  "scripts": {"start": "node --env-file-if-exists=.env server.mjs", "demo": "node server.mjs --demo", "test": "node --test test/api.test.mjs", "admin": "node --env-file-if-exists=.env server.mjs --create-admin", "backup": "node --env-file-if-exists=.env backup.mjs"}
+}

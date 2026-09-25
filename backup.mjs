@@ -1,0 +1,11 @@
+import {DatabaseSync,backup} from 'node:sqlite';
+import {resolve,dirname,join} from 'node:path';
+import {mkdirSync,existsSync} from 'node:fs';
+import {fileURLToPath} from 'node:url';
+const root=dirname(fileURLToPath(import.meta.url));
+const source=resolve(process.env.DATABASE_PATH||join(root,'data','recruider.sqlite'));
+if(!existsSync(source)) throw new Error('Database does not exist. Start the app first.');
+const target=resolve(process.argv[2]||join(root,'backups',new Date().toISOString().replaceAll(':','-')+'.sqlite'));
+if(existsSync(target)) throw new Error('Backup destination already exists. Choose a new filename.');
+mkdirSync(dirname(target),{recursive:true});
+const db=new DatabaseSync(source,{readOnly:true});await backup(db,target);db.close();console.log('Backup saved: '+target);

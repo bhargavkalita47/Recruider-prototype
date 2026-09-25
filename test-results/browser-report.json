@@ -1,0 +1,98 @@
+{
+  "visualChecks": [
+    {
+      "screen": "landing",
+      "exactScreenshotMatch": true
+    },
+    {
+      "screen": "candidate-auth",
+      "exactScreenshotMatch": true
+    },
+    {
+      "screen": "candidate-home",
+      "exactScreenshotMatch": true
+    },
+    {
+      "screen": "candidate-challenges",
+      "exactScreenshotMatch": true
+    },
+    {
+      "screen": "candidate-profile",
+      "exactScreenshotMatch": true
+    },
+    {
+      "screen": "candidate-matches",
+      "exactScreenshotMatch": true
+    },
+    {
+      "screen": "candidate-jobs",
+      "exactScreenshotMatch": true
+    },
+    {
+      "screen": "candidate-tab-jobs",
+      "exactScreenshotMatch": true
+    },
+    {
+      "screen": "candidate-companies",
+      "exactScreenshotMatch": true
+    },
+    {
+      "screen": "candidate-tab-companies",
+      "exactScreenshotMatch": true
+    },
+    {
+      "screen": "job-modal",
+      "exactScreenshotMatch": true
+    },
+    {
+      "screen": "recruiter-home",
+      "exactScreenshotMatch": true
+    },
+    {
+      "screen": "recruiter-postjob",
+      "exactScreenshotMatch": true
+    },
+    {
+      "screen": "recruiter-postchallenge",
+      "exactScreenshotMatch": true
+    },
+    {
+      "screen": "recruiter-profile",
+      "exactScreenshotMatch": true
+    },
+    {
+      "screen": "recruiter-matches",
+      "exactScreenshotMatch": true
+    },
+    {
+      "screen": "portfolio-modal",
+      "exactScreenshotMatch": true
+    },
+    {
+      "screen": "admin-dashboard",
+      "exactScreenshotMatch": true
+    },
+    {
+      "screen": "admin-challenges",
+      "exactScreenshotMatch": true
+    },
+    {
+      "screen": "admin-badges",
+      "exactScreenshotMatch": true
+    },
+    {
+      "screen": "admin-data",
+      "exactScreenshotMatch": true
+    },
+    {
+      "screen": "mobile-landing",
+      "exactScreenshotMatch": true
+    },
+    {
+      "screen": "mobile-candidate",
+      "exactScreenshotMatch": true
+    }
+  ],
+  "browserErrors": [],
+  "workflowChecks": "passed"
+}

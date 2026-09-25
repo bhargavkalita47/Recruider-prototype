@@ -1,0 +1,214 @@
+{
+  "candidates": [
+    {
+      "id": "cand1",
+      "name": "Aisha Rahman",
+      "email": "aisha@mail.com",
+      "sector": "Design",
+      "bio": "I've spent the last two years designing interfaces for early-stage fintech startups, obsessing over the small details that make an onboarding flow feel effortless instead of clever. My process starts with the messiest possible whiteboard and ends with a system other designers can actually reuse.",
+      "skills": [
+        "Figma",
+        "Design Systems",
+        "Prototyping"
+      ],
+      "badges": [
+        "b1"
+      ]
+    },
+    {
+      "id": "cand2",
+      "name": "Rohan Verma",
+      "email": "rohan@mail.com",
+      "sector": "Tech",
+      "bio": "Backend engineer who likes systems that stay boring under load. I've built rate limiters, queues, and a couple of ill-advised microservices I later merged back into one. Most recently I optimised a Postgres-heavy API from 900ms to 80ms median latency.",
+      "skills": [
+        "Node.js",
+        "PostgreSQL",
+        "System Design"
+      ],
+      "badges": []
+    },
+    {
+      "id": "cand3",
+      "name": "Priya Nair",
+      "email": "priya@mail.com",
+      "sector": "Marketing",
+      "bio": "Growth marketer for D2C brands - I plan campaigns around one number that matters and ignore the rest. Ran a 90-day content-to-conversion push that took a home-goods brand from 40 to 1,100 email subscribers a month without paid spend.",
+      "skills": [
+        "Content Strategy",
+        "SEO",
+        "Campaign Analytics"
+      ],
+      "badges": [
+        "b3"
+      ]
+    }
+  ],
+  "recruiters": [
+    {
+      "id": "rec1",
+      "name": "Kabir Singh",
+      "company": "Meridian Labs",
+      "sector": "Tech",
+      "email": "kabir@meridian.com",
+      "about": "Meridian Labs builds infrastructure tooling for mid-size fintechs."
+    },
+    {
+      "id": "rec2",
+      "name": "Elena Cruz",
+      "company": "Northwind Studio",
+      "sector": "Design",
+      "email": "elena@northwind.com",
+      "about": "Northwind Studio is a product design shop working with early-stage founders."
+    },
+    {
+      "id": "rec3",
+      "name": "Tomás Reyes",
+      "company": "Fieldstone Growth",
+      "sector": "Marketing",
+      "email": "tomas@fieldstone.com",
+      "about": "Fieldstone Growth runs performance marketing for consumer brands."
+    }
+  ],
+  "jobs": [
+    {
+      "id": "job1",
+      "recruiterId": "rec1",
+      "company": "Meridian Labs",
+      "title": "Backend Engineer",
+      "sector": "Tech",
+      "location": "Remote",
+      "pay": "₹18-26L/yr",
+      "blurb": "Own core ledger services handling millions of daily transactions.",
+      "desc": "You'll own core ledger services processing millions of transactions a day. We're a small team (6 engineers) so you'll touch everything from schema design to on-call. Strong fundamentals in databases and concurrency matter more than any specific framework."
+    },
+    {
+      "id": "job2",
+      "recruiterId": "rec1",
+      "company": "Meridian Labs",
+      "title": "Frontend Engineer",
+      "sector": "Tech",
+      "location": "Bengaluru, IN",
+      "pay": "₹14-20L/yr",
+      "blurb": "Rebuild our merchant dashboard from the ground up.",
+      "desc": "We're rebuilding our merchant dashboard from scratch - real-time charts, permissioned views, a lot of dense data made legible. React experience helps but we care more about your eye for interaction detail."
+    },
+    {
+      "id": "job3",
+      "recruiterId": "rec2",
+      "company": "Northwind Studio",
+      "title": "Product Designer",
+      "sector": "Design",
+      "location": "Remote",
+      "pay": "₹12-18L/yr",
+      "blurb": "Design end-to-end product flows for early-stage founder clients.",
+      "desc": "You'll be the second designer on the team, working directly with founder clients across fintech and healthtech. Expect to run discovery, wireframe, and ship polished flows in the same week more often than you'd like."
+    },
+    {
+      "id": "job4",
+      "recruiterId": "rec2",
+      "company": "Northwind Studio",
+      "title": "Brand & Visual Designer",
+      "sector": "Design",
+      "location": "Guwahati, IN",
+      "pay": "₹8-12L/yr",
+      "blurb": "Shape visual identity systems for consumer-facing clients.",
+      "desc": "Own visual identity work: logotype, type systems, colour, and the occasional pitch deck. You'll work closely with our product designers so systems thinking matters as much as taste."
+    },
+    {
+      "id": "job5",
+      "recruiterId": "rec3",
+      "company": "Fieldstone Growth",
+      "title": "Growth Marketer",
+      "sector": "Marketing",
+      "location": "Remote",
+      "pay": "₹10-15L/yr",
+      "blurb": "Plan and run acquisition campaigns for 3-4 consumer brands.",
+      "desc": "You'll run acquisition for 3-4 consumer brands at once: email, content, and light paid. We measure everything against one north-star metric per client and expect you to push back if a request doesn't serve it."
+    },
+    {
+      "id": "job6",
+      "recruiterId": "rec3",
+      "company": "Fieldstone Growth",
+      "title": "Content Strategist",
+      "sector": "Marketing",
+      "location": "Remote",
+      "pay": "₹7-10L/yr",
+      "blurb": "Build content calendars that actually move the funnel.",
+      "desc": "Plan and write content that ties directly to funnel stages, not just a calendar to fill. You'll work with the growth marketer on this account to keep everything pointed at one number."
+    }
+  ],
+  "challenges": [
+    {
+      "id": "chal1",
+      "postedBy": "admin",
+      "title": "Redesign a checkout flow",
+      "sector": "Design",
+      "desc": "Pick any e-commerce checkout you find frustrating and redesign it. Write up what was broken and why your version fixes it."
+    },
+    {
+      "id": "chal2",
+      "postedBy": "admin",
+      "title": "Build a rate limiter",
+      "sector": "Tech",
+      "desc": "Describe (or pseudocode) a token-bucket rate limiter for a public API, including how you would handle bursty traffic."
+    },
+    {
+      "id": "chal3",
+      "postedBy": "admin",
+      "title": "30-day growth plan for a DTC brand",
+      "sector": "Marketing",
+      "desc": "Sketch a 30-day acquisition plan for a hypothetical DTC skincare brand with a ₹50,000 budget and no existing audience."
+    },
+    {
+      "id": "chal4",
+      "postedBy": "rec1",
+      "title": "Design a webhook retry system",
+      "sector": "Tech",
+      "desc": "Meridian Labs challenge: outline how you would design retries and dead-lettering for outbound webhooks at scale."
+    }
+  ],
+  "submissions": [
+    {
+      "id": "sub1",
+      "challengeId": "chal1",
+      "candidateId": "cand1",
+      "text": "I reworked a grocery app checkout by collapsing address, payment, and review into one scrollable screen with inline validation instead of three separate steps, cutting the taps needed to pay from 14 to 6.",
+      "ts": "2 weeks ago",
+      "reviewed": true
+    },
+    {
+      "id": "sub2",
+      "challengeId": "chal3",
+      "candidateId": "cand3",
+      "text": "A 30-day plan built around organic content in week 1-2 to seed an email list via a quiz funnel, then a small retargeting budget in week 3-4 once we have first-party data to target against.",
+      "ts": "5 days ago",
+      "reviewed": true
+    }
+  ],
+  "badgesCatalog": [
+    {
+      "id": "b1",
+      "name": "Verified Builder",
+      "desc": "Completed at least one reviewed challenge with strong execution."
+    },
+    {
+      "id": "b2",
+      "name": "Design Sprint Winner",
+      "desc": "Top submission in a timed design challenge."
+    },
+    {
+      "id": "b3",
+      "name": "Growth Hacker",
+      "desc": "Demonstrated measurable growth thinking in a submission."
+    },
+    {
+      "id": "b4",
+      "name": "Challenge Champion",
+      "desc": "Three or more completed challenges."
+    }
+  ],
+  "swipesC": {},
+  "swipesR": {},
+  "matches": []
+}
