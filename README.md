@@ -1,5 +1,7 @@
 # Recruider — full-stack app
 
+**Earlier implementation:** this repository preserves the Node.js and SQLite version. For the newer React, TypeScript and Supabase implementation, see [Recruider-MVP](https://github.com/bhargavkalita47/Recruider-MVP).
+
 A Node.js + SQLite implementation of the supplied `version one(1).html` prototype. The original CSS and screen templates are retained. Each data-changing action now goes through a permission-checked API and persists to disk.
 
 ## Quick start on Windows
